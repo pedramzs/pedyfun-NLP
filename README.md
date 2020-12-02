@@ -20,7 +20,8 @@ TestResults:	has the code for comparing the results of each task with the expect
 Runme instructions:
 	1. put all the codes and data folder in a directory and use terminal to go to the directory
 	2. make sure python(>3.5) is installed 
-	3. install Virtualenv by: apt-get install python-virtualenv
+	3.	a. make a Virtualenv by: apt-get install python-virtualenv
+		b. or install the Virtualenv available here by: source env create -f pedy.yml
 	4. activate the virtual env by: source bin/activate
 	5. use pip to install the requirements in INSTALL.txt by: pip install INSTALL.txt
 	6. in case of having an issue installing torch, use the directions at https://pytorch.org/get-started/locally/
