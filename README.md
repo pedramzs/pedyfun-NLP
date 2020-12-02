@@ -32,8 +32,7 @@ Run me instructions:
 	
 	2. make sure python(>3.5) is installed 
 	
-	3.	a. make a Virtualenv by: apt-get install python-virtualenv
-		b. or install the Virtualenv available here by: source env create -f pedy.yml
+	3. make a Virtualenv by: python -m venv .
 	
 	4. activate the virtual env by: source bin/activate
 	
