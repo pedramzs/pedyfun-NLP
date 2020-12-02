@@ -3,25 +3,25 @@ NLP project on SemEval-2020 task-7
 
 The main idea of the my protocol is to find the word embeddings of the sentences using BERT or its derivatives and use CNNs to map them to a grade range of 0-3:
 
-It uses BERT, AlBERT, RoBERTa, and DistilBERT separately to find the word-embeddings of each pair of 	edied/original sentence.
+	It uses BERT, AlBERT, RoBERTa, and DistilBERT separately to find the word-embeddings of each pair of 	edied/original sentence.
 
 There are 4 pthon codes:
 
 Task1.py:	
 
-has the code for task 1. At the end of the run it shows the results for using each one of the BERT or its derivatives methods. It also saves the best CNN models found and their result on the test-set.
+	has the code for task 1. At the end of the run it shows the results for using each one of the BERT or its derivatives methods. It also saves the best CNN models found and their result on the test-set.
 
 Task2.py:	
 
-has the code for task 2. At the end of the run it shows the results for using each one of the BERT or its derivatives methods. It also saves the best CNN models found and their result on the test-set. Here, the dataset includes two edits for each original sentence. The word-embeddings of each pair of original/edit 1 and original/edit 2 is given to a CNN layer, and the results are concatenated and given to a dense layer to decide which one is more funny.
+	has the code for task 2. At the end of the run it shows the results for using each one of the BERT or its derivatives methods. It also saves the best CNN models found and their result on the test-set. Here, the dataset includes two edits for each original sentence. The word-embeddings of each pair of original/edit 1 and original/edit 2 is given to a CNN layer, and the results are concatenated and given to a dense layer to decide which one is more funny.
 
 BothTasks:	
 
-has the code for task 1 followed by a code for task 2 that only uses the best models found in task 1 to grade each one of the edits in the pairs separatly, and then, compare them together.
+	has the code for task 1 followed by a code for task 2 that only uses the best models found in task 1 to grade each one of the edits in the pairs separatly, and then, compare them together.
 
 TestResults:	
 
-has the code for comparing the results of each task with the expected grades/labels of the test-sets in each task. This code uses the two functions given by the dataset to find the RMSE in task 1 and Accuracy in task 2.
+	has the code for comparing the results of each task with the expected grades/labels of the test-sets in each task. This code uses the two functions given by the dataset to find the RMSE in task 1 and Accuracy in task 2.
 
 After either the first 2 codes or the 3rd code are run completely, the last code (TestResults.py) can be run to test their results. Or the already available final results can go through this code to see their results.
 
