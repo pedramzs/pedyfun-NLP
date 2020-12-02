@@ -17,7 +17,7 @@ TestResults:	has the code for comparing the results of each task with the expect
 	After either the first 2 codes or the 3rd code are run completely, the last code (TestResults.py) can be run to test their results. Or the already available final results can go through this code to see their results.
 
 
-Runme instructions:
+Run me instructions:
 	1. put all the codes and data folder in a directory and use terminal to go to the directory
 	2. make sure python(>3.5) is installed 
 	3.	a. make a Virtualenv by: apt-get install python-virtualenv
