@@ -38,11 +38,11 @@ Run me instructions:
 	
 	5. use pip to install the requirements in INSTALL.txt by: pip install INSTALL.txt
 	
-	6. in case of having an issue installing torch, use the directions at https://pytorch.org/get-started/locally/
+	6. in case of having an issue installing torch, use the directions at https://pytorch.org/get-started/locally/ to install pytorch 1.4.0
 	
 	7. in case of having an issue installing transformers together with torch use: pip install transformers
 	
-	8. make sure to install transformers 3.1.0 or newer to include all BERT, AlBERT, RoBERTa, and DistilBERT
+	8. make sure to install transformers 3.1.0 or newer to include all BERT, AlBERT, RoBERTa, and DistilBERT 
 	
 	9. run either one of the codes Task1.py, Task2.py, or BothTasks.py
 	
