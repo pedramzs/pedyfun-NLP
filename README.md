@@ -18,14 +18,24 @@ TestResults:	has the code for comparing the results of each task with the expect
 
 
 Run me instructions:
+	
 	1. put all the codes and data folder in a directory and use terminal to go to the directory
+	
 	2. make sure python(>3.5) is installed 
+	
 	3.	a. make a Virtualenv by: apt-get install python-virtualenv
 		b. or install the Virtualenv available here by: source env create -f pedy.yml
+	
 	4. activate the virtual env by: source bin/activate
+	
 	5. use pip to install the requirements in INSTALL.txt by: pip install INSTALL.txt
+	
 	6. in case of having an issue installing torch, use the directions at https://pytorch.org/get-started/locally/
+	
 	7. in case of having an issue installing transformers together with torch use: pip install transformers
+	
 	8. make sure to install transformers 3.1.0 or newer to include all BERT, AlBERT, RoBERTa, and DistilBERT
+	
 	9. run either one of the codes Task1.py, Task2.py, or BothTasks.py
+	
 	10. run TestResults.py to see the final results of previous codes
